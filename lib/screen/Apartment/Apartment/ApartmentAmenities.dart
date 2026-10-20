@@ -30,7 +30,7 @@ class ApartmentAmenitiesScreen extends StatefulWidget {
 
 class _ApartmentAmenitiesScreenState extends State<ApartmentAmenitiesScreen> {
   // -- ALL EXISTING STATE � UNTOUCHED ------------------------------------------
-  final String apiBase = "https://rentit-backend-yti9.onrender.com";
+  final String apiBase = "https://rentit-backend-omega.vercel.app";
 
   final TextEditingController secondaryNumberController =
       TextEditingController();

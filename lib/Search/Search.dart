@@ -434,7 +434,7 @@ class _FiltersWidgetState extends State<_FiltersWidget> {
       if (userId == null) return;
       await http
           .post(
-            Uri.parse("https://rentit-backend-yti9.onrender.com/preferences"),
+            Uri.parse("https://rentit-backend-omega.vercel.app/preferences"),
             headers: {"Content-Type": "application/json"},
             body: jsonEncode({
               "userId": userId,

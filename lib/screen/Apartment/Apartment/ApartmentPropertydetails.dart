@@ -31,7 +31,7 @@ class ApartmentPropertyDetailsScreen extends ConsumerStatefulWidget {
 
 class _ApartmentPropertyDetailsScreenState
     extends ConsumerState<ApartmentPropertyDetailsScreen> {
-  final String API_BASE = "https://rentit-backend-yti9.onrender.com";
+  final String API_BASE = "https://rentit-backend-omega.vercel.app";
 
   // -- All existing state � untouched ------------------------------------------
   final Map<String, dynamic> formData = {

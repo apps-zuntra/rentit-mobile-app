@@ -17,7 +17,7 @@ import 'package:rentit/screen/nav/mainnavigationscreen.dart';
 import 'package:rentit/screen/visit_scheduler_screen.dart';
 
 abstract class ApiConstants {
-  static const String baseUrl = "https://rentit-backend-yti9.onrender.com";
+  static const String baseUrl = "https://rentit-backend-omega.vercel.app";
 }
 
 bool _hasValidMap(Map<String, dynamic> item, String key) {
@@ -723,7 +723,7 @@ class _ShortlistCardState extends State<_ShortlistCard> {
   String _type = 'property';
   bool _loading = true;
 
-  static const _base = 'https://rentit-backend-yti9.onrender.com';
+  static const _base = 'https://rentit-backend-omega.vercel.app';
 
   @override
   void initState() {

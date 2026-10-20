@@ -44,15 +44,7 @@ Color _avatarColor(String name) {
   return _avatarPalette[name.codeUnitAt(0) % _avatarPalette.length];
 }
 
-// -----------------------------------------------------------------------------
-//  FILTER ENUM
-// -----------------------------------------------------------------------------
-
 enum _Filter { all, bookings, messages }
-
-// -----------------------------------------------------------------------------
-//  SCREEN
-// -----------------------------------------------------------------------------
 
 class NotificationsScreen extends StatefulWidget {
   const NotificationsScreen({super.key});
@@ -71,7 +63,7 @@ class _NotificationsScreenState extends State<NotificationsScreen>
   _Filter _filter = _Filter.all;
   int? _userId;
 
-  static const String _baseUrl = "https://rentit-backend-yti9.onrender.com";
+  static const String _baseUrl = "https://rentit-backend-omega.vercel.app";
 
   // -- Lifecycle --------------------------------------------------------------
 
@@ -92,8 +84,6 @@ class _NotificationsScreenState extends State<NotificationsScreen>
   void didChangeAppLifecycleState(AppLifecycleState state) {
     if (state == AppLifecycleState.resumed) _init();
   }
-
-  // -- Init -------------------------------------------------------------------
 
   Future<void> _init() async {
     final prefs = await SharedPreferences.getInstance();

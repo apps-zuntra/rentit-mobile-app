@@ -34,7 +34,7 @@ import 'package:rentit/screen/nav/mainnavigationscreen.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 
 // ─── Constants ────────────────────────────────────────────────────────────────
-const String _kBaseUrl = "https://rentit-backend-yti9.onrender.com";
+const String _kBaseUrl = "https://rentit-backend-omega.vercel.app";
 const String _kSearchHistoryKey = "search_history";
 const int _kMaxHistory = 8;
 

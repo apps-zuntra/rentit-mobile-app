@@ -19,7 +19,7 @@ import 'package:shared_preferences/shared_preferences.dart';
 // Constants
 // -----------------------------------------------------------------------------
 
-const String _kApiBase = "https://rentit-backend-yti9.onrender.com";
+const String _kApiBase = "https://rentit-backend-omega.vercel.app";
 
 // Colour palette
 const Color _kGreen = Color(0xFF2F4253);

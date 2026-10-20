@@ -11,7 +11,7 @@ import 'package:shared_preferences/shared_preferences.dart';
 /// Each screen writes its fields into [draft] via [update].
 /// Only [saveAll] (called from the final Schedule screen) hits the network.
 class FlatmateDraftProvider extends ChangeNotifier {
-  static const String _baseUrl = "https://rentit-backend-yti9.onrender.com";
+  static const String _baseUrl = "https://rentit-backend-omega.vercel.app";
 
   final FlatmateDraft draft = FlatmateDraft();
 

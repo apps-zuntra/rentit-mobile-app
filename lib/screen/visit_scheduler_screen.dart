@@ -30,7 +30,7 @@ class VisitSchedulerScreen extends ConsumerStatefulWidget {
 }
 
 class _VisitSchedulerScreenState extends ConsumerState<VisitSchedulerScreen> {
-  static const String _kBase = "https://rentit-backend-yti9.onrender.com";
+  static const String _kBase = "https://rentit-backend-omega.vercel.app";
 
   int activeIndex = 0;
   String? selectedTime;

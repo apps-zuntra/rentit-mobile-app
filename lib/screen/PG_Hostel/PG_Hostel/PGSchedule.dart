@@ -38,7 +38,7 @@ class _PGScheduleFormState extends ConsumerState<PGScheduleForm> {
   bool isLoading = false;
   bool dataLoading = true;
 
-  String apiBase = "https://rentit-backend-yti9.onrender.com";
+  String apiBase = "https://rentit-backend-omega.vercel.app";
 
   late final List<String> timeOptions;
 

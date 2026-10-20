@@ -55,7 +55,7 @@ const Color _kProgressBg = Color(0xFFE4E9F0);
 
 class _PostPropertyScreenState extends State<PostPropertyScreen> {
   // --- Config ------------------------------------------------------------------
-  final String baseUrl = "https://rentit-backend-yti9.onrender.com";
+  final String baseUrl = "https://rentit-backend-omega.vercel.app";
 
   // --- State -------------------------------------------------------------------
   String mainType = "Residential";

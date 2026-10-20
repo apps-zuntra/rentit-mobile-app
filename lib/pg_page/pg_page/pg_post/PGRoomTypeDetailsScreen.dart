@@ -31,7 +31,7 @@ class PGRoomTypeDetailsScreen extends ConsumerStatefulWidget {
 
 class _PGRoomTypeDetailsScreenState
     extends ConsumerState<PGRoomTypeDetailsScreen> {
-  final String API_BASE = "https://rentit-backend-yti9.onrender.com";
+  final String API_BASE = "https://rentit-backend-omega.vercel.app";
 
   // -- State ----------------------------------------------------------------
   List<Map<String, dynamic>> rooms = [];

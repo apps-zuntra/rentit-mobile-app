@@ -32,7 +32,7 @@ class CommercialPhotosScreen extends StatefulWidget {
 }
 
 class _CommercialPhotosScreenState extends State<CommercialPhotosScreen> {
-  final String _apiBase = "https://rentit-backend-yti9.onrender.com";
+  final String _apiBase = "https://rentit-backend-omega.vercel.app";
 
   // ── State ──────────────────────────────────────────────────────────────────
   List<String> existingImageUrls = [];

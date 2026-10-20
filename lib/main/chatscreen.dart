@@ -31,7 +31,7 @@ class _ChatScreenState extends State<ChatScreen> {
   bool _isLoading = true;
   bool _isSending = false;
 
-  final String baseUrl = "https://rentit-backend-yti9.onrender.com";
+  final String baseUrl = "https://rentit-backend-omega.vercel.app";
 
   @override
   void initState() {

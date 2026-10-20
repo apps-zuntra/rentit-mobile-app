@@ -258,7 +258,7 @@ class _PremiumFilterScreenState extends State<PremiumFilterScreen> {
       final userId = prefs.getInt('userId');
       if (userId != null) {
         await http.post(
-          Uri.parse('https://rentit-backend-yti9.onrender.com/preferences'),
+          Uri.parse('https://rentit-backend-omega.vercel.app/preferences'),
           headers: {'Content-Type': 'application/json'},
           body: jsonEncode({
             'userId': userId,

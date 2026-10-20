@@ -3,7 +3,7 @@ import 'package:flutter/material.dart';
 import 'package:http/http.dart' as http;
 import 'package:shared_preferences/shared_preferences.dart';
 
-const String baseUrl = "https://rentit-backend-yti9.onrender.com";
+const String baseUrl = "https://rentit-backend-omega.vercel.app";
 
 class HousingPriceDetails extends StatefulWidget {
   const HousingPriceDetails({super.key});

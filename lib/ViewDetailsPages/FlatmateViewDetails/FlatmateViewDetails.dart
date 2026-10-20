@@ -22,7 +22,7 @@ import 'Flatmate_filter_screen.dart';
 
 // ─── Constants ────────────────────────────────────────────────────────────────
 
-const String _kBaseUrl = "https://rentit-backend-yti9.onrender.com";
+const String _kBaseUrl = "https://rentit-backend-omega.vercel.app";
 const int _kItemsPerPage = 8;
 
 // ─── Palette ──────────────────────────────────────────────────────────────────

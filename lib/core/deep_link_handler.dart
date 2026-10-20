@@ -38,7 +38,7 @@ class _DeepLinkHandlerScreenState extends State<DeepLinkHandlerScreen> {
 
       final response = await http.get(
         Uri.parse(
-          "https://rentit-backend-yti9.onrender.com/property/${widget.propertyId}",
+          "https://rentit-backend-omega.vercel.app/property/${widget.propertyId}",
         ),
         headers: headers,
       );

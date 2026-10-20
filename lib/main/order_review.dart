@@ -6,7 +6,7 @@ import 'package:razorpay_flutter/razorpay_flutter.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 import 'payment_success_screen.dart';
 
-const String _kBase = "https://rentit-backend-yti9.onrender.com";
+const String _kBase = "https://rentit-backend-omega.vercel.app";
 const Color kTextSub = Color(0xFF5A6A7A);
 const Color kTextMuted = Color(0xFF9BAAB8);
 

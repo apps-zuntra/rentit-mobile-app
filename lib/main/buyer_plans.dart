@@ -34,7 +34,7 @@ const Color kOrange = Color(0xFFEA580C);
 const Color kOrangeTint = Color(0xFFFFF7ED);
 const Color kRed = Color(0xFFDC2626);
 
-const String _kBase = "https://rentit-backend-yti9.onrender.com";
+const String _kBase = "https://rentit-backend-omega.vercel.app";
 
 // ── Plan data ─────────────────────────────────────────────────────────────────
 class _PlanFeature {

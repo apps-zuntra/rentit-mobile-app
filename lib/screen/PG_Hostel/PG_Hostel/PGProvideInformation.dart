@@ -11,7 +11,7 @@
 // }
 
 // class _PGProvideInformationState extends State<PGProvideInformation> {
-//   final String API_BASE = "https://rentit-backend-yti9.onrender.com";
+//   final String API_BASE = "https://rentit-backend-omega.vercel.app";
 
 //   String placeFor = "";
 //   String preferredGuest = "";

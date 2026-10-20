@@ -67,7 +67,7 @@ class _PropertyDetailScreenState extends ConsumerState<PropertyDetailScreen>
   late AnimationController _fadeCtrl;
   late Animation<double> _fadeAnim;
 
-  static const _base = "https://rentit-backend-yti9.onrender.com";
+  static const _base = "https://rentit-backend-omega.vercel.app";
 
   @override
   void initState() {

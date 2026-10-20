@@ -14,7 +14,7 @@ import 'package:shared_preferences/shared_preferences.dart';
 import 'package:rentit/main/plans.dart';
 import 'package:rentit/core/image_utils.dart';
 
-const String _kApiBase = "https://rentit-backend-yti9.onrender.com";
+const String _kApiBase = "https://rentit-backend-omega.vercel.app";
 
 // ─────────────────────────────────────────────
 // PALETTE

@@ -3,7 +3,7 @@ import 'package:flutter/material.dart';
 import 'package:http/http.dart' as http;
 import 'package:rentit/core/image_utils.dart';
 
-const String _pgBaseUrl = "https://rentit-backend-yti9.onrender.com";
+const String _pgBaseUrl = "https://rentit-backend-omega.vercel.app";
 
 // -------------------------------------------------------------
 //  MODEL

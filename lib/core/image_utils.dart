@@ -2,7 +2,7 @@
 import 'dart:convert';
 import 'package:flutter/material.dart';
 
-const String kDefaultImageBaseUrl = "https://rentit-backend-yti9.onrender.com";
+const String kDefaultImageBaseUrl = "https://rentit-backend-omega.vercel.app";
 
 /// Universal image URL sanitizer and encoder
 String? sanitizeImageUrl(dynamic url, [String baseUrl = kDefaultImageBaseUrl]) {

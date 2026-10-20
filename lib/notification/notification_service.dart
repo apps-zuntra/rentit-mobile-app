@@ -8,7 +8,7 @@ import 'package:shared_preferences/shared_preferences.dart';
 //  CONSTANTS
 // -----------------------------------------------------------------------------
 
-const String kBaseUrl = "https://rentit-backend-yti9.onrender.com";
+const String kBaseUrl = "https://rentit-backend-omega.vercel.app";
 
 // -----------------------------------------------------------------------------
 //  ENUMS

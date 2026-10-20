@@ -16,7 +16,7 @@ class LocationApi {
       }
 
       final url = Uri.parse(
-        "https://rentit-backend-yti9.onrender.com/user/location",
+        "https://rentit-backend-omega.vercel.app/user/location",
       );
 
       print("?? CALLING API: $url");

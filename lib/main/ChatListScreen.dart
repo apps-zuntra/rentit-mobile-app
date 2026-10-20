@@ -71,7 +71,7 @@ class _ChatListScreenState extends State<ChatListScreen>
   late Animation<double> _fadeAnimation;
 
   // -- Config -----------------------------------------------------------------
-  static const String _baseUrl = "https://rentit-backend-yti9.onrender.com";
+  static const String _baseUrl = "https://rentit-backend-omega.vercel.app";
   static const Map<String, String> _headers = {
     'Content-Type': 'application/json',
   };

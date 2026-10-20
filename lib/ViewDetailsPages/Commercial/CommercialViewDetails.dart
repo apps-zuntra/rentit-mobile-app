@@ -22,7 +22,7 @@ import 'package:url_launcher/url_launcher.dart';
 // ─────────────────────────────────────────────────────────────────────────────
 // CONSTANTS
 // ─────────────────────────────────────────────────────────────────────────────
-const String kBaseUrl = "https://rentit-backend-yti9.onrender.com";
+const String kBaseUrl = "https://rentit-backend-omega.vercel.app";
 const int kItemsPerPage = 8;
 
 // ─────────────────────────────────────────────────────────────────────────────

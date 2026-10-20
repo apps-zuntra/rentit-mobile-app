@@ -867,7 +867,7 @@ class PGLocationDetailsPage extends ConsumerStatefulWidget {
 }
 
 class _PGLocationDetailsPageState extends ConsumerState<PGLocationDetailsPage> {
-  final String API_BASE = "https://rentit-backend-yti9.onrender.com";
+  final String API_BASE = "https://rentit-backend-omega.vercel.app";
   final String MAPS_API_KEY = "AIzaSyBizXLJbKBu9EfDbi6AbAU8yMCQeW6CFyE";
 
   final TextEditingController localityCtrl = TextEditingController();

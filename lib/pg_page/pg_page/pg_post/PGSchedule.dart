@@ -12,7 +12,7 @@ import 'package:shared_preferences/shared_preferences.dart';
 // API Config
 // ---------------------------------------------
 class _ApiConfig {
-  static const String baseUrl = "https://rentit-backend-yti9.onrender.com";
+  static const String baseUrl = "https://rentit-backend-omega.vercel.app";
   static const String property = '$baseUrl/property';
 }
 

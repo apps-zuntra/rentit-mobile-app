@@ -16,7 +16,7 @@ class CommercialPropertyDetailsScreen extends ConsumerStatefulWidget {
 
 class _CommercialPropertyDetailsScreenState
     extends ConsumerState<CommercialPropertyDetailsScreen> {
-  static const String _apiBase = "https://rentit-backend-yti9.onrender.com";
+  static const String _apiBase = "https://rentit-backend-omega.vercel.app";
 
   // Form values
   final Map<String, String> _form = {

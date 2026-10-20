@@ -223,7 +223,7 @@ class _FiltersWidgetState extends State<_FiltersWidget> {
     try {
       final token = await _getToken();
       final res = await http.get(
-        Uri.parse('https://rentit-backend-yti9.onrender.comproperty/all'),
+        Uri.parse('https://rentit-backend-omega.vercel.appproperty/all'),
         headers: {if (token != null) 'Authorization': 'Bearer $token'},
       );
       if (res.statusCode == 200) {

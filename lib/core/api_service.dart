@@ -2,7 +2,7 @@ import 'dart:convert';
 import 'package:http/http.dart' as http;
 
 class ApiService {
-  static const String baseUrl = "https://rentit-backend-yti9.onrender.com";
+  static const String baseUrl = "https://rentit-backend-omega.vercel.app";
 
   static const Map<String, String> _headers = {
     "Content-Type": "application/json",

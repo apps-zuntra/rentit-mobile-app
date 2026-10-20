@@ -11,7 +11,7 @@ class PGRoomDetailsScreen extends StatefulWidget {
 }
 
 class _PGRoomDetailsScreenState extends State<PGRoomDetailsScreen> {
-  final String API_BASE = "https://rentit-backend-yti9.onrender.com";
+  final String API_BASE = "https://rentit-backend-omega.vercel.app";
 
   List<Map<String, dynamic>> rooms = [];
   bool loading = false;

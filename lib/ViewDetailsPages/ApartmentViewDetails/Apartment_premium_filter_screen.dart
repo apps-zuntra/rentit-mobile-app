@@ -94,7 +94,7 @@ const List<String> _kShowOnly = [
 ];
 
 const String _kGoogleApiKey = "AIzaSyBizXLJbKBu9EfDbi6AbAU8yMCQeW6CFyE";
-const String _kBaseUrl = "https://rentit-backend-yti9.onrender.com";
+const String _kBaseUrl = "https://rentit-backend-omega.vercel.app";
 
 // -----------------------------------------------------------------------------
 //  AUTOCOMPLETE MODEL

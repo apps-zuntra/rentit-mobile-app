@@ -29,7 +29,7 @@ class CommercialAmenities extends ConsumerStatefulWidget {
 }
 
 class _CommercialAmenitiesState extends ConsumerState<CommercialAmenities> {
-  static const String _apiBase = "https://rentit-backend-yti9.onrender.com";
+  static const String _apiBase = "https://rentit-backend-omega.vercel.app";
 
   // -- Controllers ------------------------------------------------------------
   late TextEditingController _slotsController;

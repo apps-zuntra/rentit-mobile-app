@@ -33,7 +33,7 @@ class PGPhotosScreen extends ConsumerStatefulWidget {
 }
 
 class _PGPhotosScreenState extends ConsumerState<PGPhotosScreen> {
-  final String API_BASE = "https://rentit-backend-yti9.onrender.com";
+  final String API_BASE = "https://rentit-backend-omega.vercel.app";
 
   // ? Existing images from server (URLs)
   List<String> existingImageUrls = [];

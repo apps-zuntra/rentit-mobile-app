@@ -26,7 +26,7 @@ class CommercialContactDetailsScreen extends StatefulWidget {
 
 class _CommercialContactDetailsScreenState
     extends State<CommercialContactDetailsScreen> {
-  final String API_BASE = "https://rentit-backend-yti9.onrender.com";
+  final String API_BASE = "https://rentit-backend-omega.vercel.app";
 
   // -- Controllers -------------------------------------------------------------
   late TextEditingController nameController;

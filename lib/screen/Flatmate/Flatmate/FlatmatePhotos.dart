@@ -34,7 +34,7 @@ class FlatmatePhotosScreen extends ConsumerStatefulWidget {
 }
 
 class _FlatmatePhotosScreenState extends ConsumerState<FlatmatePhotosScreen> {
-  final String API_BASE = "https://rentit-backend-yti9.onrender.com";
+  final String API_BASE = "https://rentit-backend-omega.vercel.app";
 
   // -- State ------------------------------------------------------------------
   List<String> existingImageUrls = [];

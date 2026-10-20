@@ -5,7 +5,7 @@ import 'package:shared_preferences/shared_preferences.dart';
 
 import 'OfficeSpacePricedetails.dart';
 
-const String API_BASE = "https://rentit-backend-yti9.onrender.com";
+const String API_BASE = "https://rentit-backend-omega.vercel.app";
 
 class OfficeSpaceAmenities extends StatefulWidget {
   const OfficeSpaceAmenities({super.key});

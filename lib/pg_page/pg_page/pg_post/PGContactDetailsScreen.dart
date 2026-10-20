@@ -29,7 +29,7 @@ class PGContactDetailsScreen extends ConsumerStatefulWidget {
 
 class _PGContactDetailsScreenState
     extends ConsumerState<PGContactDetailsScreen> {
-  final String baseUrl = "https://rentit-backend-yti9.onrender.com";
+  final String baseUrl = "https://rentit-backend-omega.vercel.app";
 
   // -- Controllers -------------------------------------------------------------
   final nameController = TextEditingController();

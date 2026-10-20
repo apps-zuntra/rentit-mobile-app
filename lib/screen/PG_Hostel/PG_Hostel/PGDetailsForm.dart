@@ -11,7 +11,7 @@ class PGDetailsFormScreen extends StatefulWidget {
 }
 
 class _PGDetailsFormScreenState extends State<PGDetailsFormScreen> {
-  final String API_BASE = "https://rentit-backend-yti9.onrender.com";
+  final String API_BASE = "https://rentit-backend-omega.vercel.app";
 
   bool loading = false;
 

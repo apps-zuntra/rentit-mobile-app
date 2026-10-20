@@ -8,7 +8,7 @@ import 'package:rentit/core/image_utils.dart';
 import 'package:rentit/feature/like/provider/like_provider.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 
-const String _kBaseUrl = "https://rentit-backend-yti9.onrender.com";
+const String _kBaseUrl = "https://rentit-backend-omega.vercel.app";
 
 class AllPropertiesScreen extends StatefulWidget {
   const AllPropertiesScreen({super.key});

@@ -40,7 +40,7 @@ class _ApartmentScheduleFormState extends ConsumerState<ApartmentScheduleForm> {
   bool dataLoading = true;
 
   // -- Config -----------------------------------------------------------------
-  final String apiBase = "https://rentit-backend-yti9.onrender.com";
+  final String apiBase = "https://rentit-backend-omega.vercel.app";
 
   late final List<String> timeOptions;
 

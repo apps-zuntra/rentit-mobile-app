@@ -26,7 +26,7 @@ class CommercialSchedule extends ConsumerStatefulWidget {
 }
 
 class _CommercialScheduleState extends ConsumerState<CommercialSchedule> {
-  static const String _apiBase = "https://rentit-backend-yti9.onrender.com";
+  static const String _apiBase = "https://rentit-backend-omega.vercel.app";
 
   String _availability = "";
   String _startTime = "";

@@ -29,7 +29,7 @@ const Color kDivider = Color(0xFFEEF2F7);
 // API Config
 // ---------------------------------------------
 class _ApiConfig {
-  static const String baseUrl = "https://rentit-backend-yti9.onrender.com";
+  static const String baseUrl = "https://rentit-backend-omega.vercel.app";
   static const String flatmate = '$baseUrl/flatmate';
 }
 

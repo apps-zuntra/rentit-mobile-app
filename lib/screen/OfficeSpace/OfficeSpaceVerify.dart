@@ -38,7 +38,7 @@ class OfficeSpaceVerify extends StatelessWidget {
     }
 
     String link =
-        "https://rentit-backend-yti9.onrender.com/property/$propertyId";
+        "https://rentit-backend-omega.vercel.app/property/$propertyId";
 
     await Clipboard.setData(ClipboardData(text: link));
 
@@ -66,7 +66,7 @@ class OfficeSpaceVerify extends StatelessWidget {
     }
 
     String link =
-        "https://rentit-backend-yti9.onrender.com/property/$propertyId";
+        "https://rentit-backend-omega.vercel.app/property/$propertyId";
 
     await Clipboard.setData(ClipboardData(text: link));
 

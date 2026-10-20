@@ -102,7 +102,7 @@ class _ApartmentPropertyDetailScreenState
   late AnimationController _fadeCtrl;
   late Animation<double> _fadeAnim;
 
-  static const _base = "https://rentit-backend-yti9.onrender.com";
+  static const _base = "https://rentit-backend-omega.vercel.app";
 
   get video => null;
 

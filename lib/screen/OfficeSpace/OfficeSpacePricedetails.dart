@@ -4,7 +4,7 @@ import 'package:http/http.dart' as http;
 import 'package:shared_preferences/shared_preferences.dart';
 import 'OfficeSpacePhotos.dart';
 
-const String API_BASE = "https://rentit-backend-yti9.onrender.com";
+const String API_BASE = "https://rentit-backend-omega.vercel.app";
 
 class OfficeSpacePricedetails extends StatefulWidget {
   const OfficeSpacePricedetails({super.key});

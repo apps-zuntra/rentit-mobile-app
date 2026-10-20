@@ -101,7 +101,7 @@ class _CommercialPropertyDetailScreenState
   late Animation<double> _fadeAnim;
 
   static const _googleApiKey = 'AIzaSyBizXLJbKBu9EfDbi6AbAU8yMCQeW6CFyE';
-  static const _base = "https://rentit-backend-yti9.onrender.com";
+  static const _base = "https://rentit-backend-omega.vercel.app";
 
   // ── Lifecycle ──────────────────────────────────────────────────────────────
 

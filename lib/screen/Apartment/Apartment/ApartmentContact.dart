@@ -13,7 +13,7 @@ class PostPropertyContactScreen extends StatefulWidget {
 }
 
 class _PostPropertyContactScreenState extends State<PostPropertyContactScreen> {
-  final String baseUrl = "https://rentit-backend-yti9.onrender.com";
+  final String baseUrl = "https://rentit-backend-omega.vercel.app";
 
   bool loading = false;
 

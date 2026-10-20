@@ -11,7 +11,7 @@ class OfficeSpacePropertydetails extends StatefulWidget {
 
 class _OfficeSpacePropertydetailsState
     extends State<OfficeSpacePropertydetails> {
-  final String baseUrl = "https://rentit-backend-yti9.onrender.com";
+  final String baseUrl = "https://rentit-backend-omega.vercel.app";
 
   final dio = Dio();
 

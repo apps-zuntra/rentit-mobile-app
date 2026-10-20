@@ -11,7 +11,7 @@ import 'package:rentit/screen/location_service.dart';
 import 'package:rentit/screen/nav/mainnavigationscreen.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 
-const String kBaseUrl = "https://rentit-backend-yti9.onrender.com";
+const String kBaseUrl = "https://rentit-backend-omega.vercel.app";
 
 // ─────────────────────────────────────────────
 // COLOURS
@@ -118,7 +118,7 @@ class _AccountScreenState extends State<AccountScreen> {
 
       final res = await http.get(
         Uri.parse(
-          "https://rentit-backend-yti9.onrender.com/chat/list?userId=$userId",
+          "https://rentit-backend-omega.vercel.app/chat/list?userId=$userId",
         ),
       );
 

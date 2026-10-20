@@ -65,7 +65,7 @@ class _NearbyPlace {
 
 // ─── Base URL ─────────────────────────────────────────────────────────────────
 
-const _kBase = "https://rentit-backend-yti9.onrender.com";
+const _kBase = "https://rentit-backend-omega.vercel.app";
 
 // Set your Google Places API key here for real nearby results.
 // Leave empty to use the Nominatim (OpenStreetMap) free fallback.

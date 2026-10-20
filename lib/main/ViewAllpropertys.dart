@@ -18,7 +18,7 @@ import 'filter_model.dart';
 import 'premium_filter_screen.dart';
 
 // ── Constants ──────────────────────────────────────────────────────────────────
-const String baseUrl = "https://rentit-backend-yti9.onrender.com";
+const String baseUrl = "https://rentit-backend-omega.vercel.app";
 const int kItemsPerPage = 8;
 
 // ── Palette ────────────────────────────────────────────────────────────────────

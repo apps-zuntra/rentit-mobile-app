@@ -33,7 +33,7 @@ class ApartmentRentalDetailsScreen extends ConsumerStatefulWidget {
 class _ApartmentRentalDetailsScreenState
     extends ConsumerState<ApartmentRentalDetailsScreen> {
   // -- ALL EXISTING STATE � UNTOUCHED ------------------------------------------
-  final String API_BASE = "https://rentit-backend-yti9.onrender.com";
+  final String API_BASE = "https://rentit-backend-omega.vercel.app";
 
   static const Color kPrimary = Color(0xff2F3E4D);
   static const Color kPrimaryLight = Color(0xff3d5166);

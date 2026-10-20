@@ -11,7 +11,7 @@ class PGAdditionalDetails extends StatefulWidget {
 }
 
 class _PGAdditionalDetailsState extends State<PGAdditionalDetails> {
-  final String API_BASE = "https://rentit-backend-yti9.onrender.com";
+  final String API_BASE = "https://rentit-backend-omega.vercel.app";
 
   String laundry = "";
   String cleaning = "";

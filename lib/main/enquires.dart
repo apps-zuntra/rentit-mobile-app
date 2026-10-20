@@ -47,7 +47,7 @@ class _EnquiriesScreenState extends ConsumerState<EnquiriesScreen>
   bool chatLoading = true;
   int? userId;
 
-  final String baseUrl = "https://rentit-backend-yti9.onrender.com";
+  final String baseUrl = "https://rentit-backend-omega.vercel.app";
   final Map<String, String> headers = {"Content-Type": "application/json"};
 
   // -- Lifecycle --------------------------------------------------------------

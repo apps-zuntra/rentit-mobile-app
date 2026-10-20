@@ -5,7 +5,7 @@ import 'package:http/http.dart' as http;
 import 'package:rentit/feature/auth/auth_wrapper.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 
-const String kBaseUrl = "https://rentit-backend-yti9.onrender.com";
+const String kBaseUrl = "https://rentit-backend-omega.vercel.app";
 
 class AccountScreen extends StatefulWidget {
   const AccountScreen({super.key});

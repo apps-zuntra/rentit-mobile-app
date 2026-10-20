@@ -42,7 +42,7 @@ class FlatmateRentScreen extends ConsumerStatefulWidget {
 
 class _FlatmateRentScreenState extends ConsumerState<FlatmateRentScreen> {
   // --- BASE URL ---------------------------------------------------------------
-  static const String baseUrl = "https://rentit-backend-yti9.onrender.com";
+  static const String baseUrl = "https://rentit-backend-omega.vercel.app";
 
   // --- CONTROLLERS ------------------------------------------------------------
   final TextEditingController rentController = TextEditingController();

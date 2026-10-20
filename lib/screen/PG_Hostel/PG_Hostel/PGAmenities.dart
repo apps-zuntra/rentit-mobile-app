@@ -3,7 +3,7 @@ import 'package:flutter/material.dart';
 import 'package:http/http.dart' as http;
 import 'package:shared_preferences/shared_preferences.dart';
 
-const String baseUrl = "https://rentit-backend-yti9.onrender.com";
+const String baseUrl = "https://rentit-backend-omega.vercel.app";
 const Color TEAL = Color(0xFF0D9B8A);
 
 class PGAmenities extends StatefulWidget {
