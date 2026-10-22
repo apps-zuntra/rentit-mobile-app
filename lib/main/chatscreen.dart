@@ -96,6 +96,30 @@ class _ChatScreenState extends State<ChatScreen> {
       return;
     }
 
+    if (widget.ownerId <= 0) {
+      if (mounted) {
+        ScaffoldMessenger.of(context).showSnackBar(
+          const SnackBar(
+            content: Text("Owner contact details are not available for this listing"),
+          ),
+        );
+        Navigator.pop(context);
+      }
+      return;
+    }
+
+    if (userId == widget.ownerId) {
+      if (mounted) {
+        ScaffoldMessenger.of(context).showSnackBar(
+          const SnackBar(
+            content: Text("You cannot start a chat on your own property listing"),
+          ),
+        );
+        Navigator.pop(context);
+      }
+      return;
+    }
+
     await fetchMessages();
 
     // Poll every 5 seconds for new messages
@@ -173,8 +197,15 @@ class _ChatScreenState extends State<ChatScreen> {
         await fetchMessages();
       } else {
         if (mounted) {
+          String errMsg = "Failed to send message";
+          try {
+            final decoded = jsonDecode(res.body);
+            if (decoded is Map && decoded['message'] != null) {
+              errMsg = decoded['message'].toString();
+            }
+          } catch (_) {}
           ScaffoldMessenger.of(context).showSnackBar(
-            const SnackBar(content: Text("Failed to send message")),
+            SnackBar(content: Text(errMsg)),
           );
         }
       }

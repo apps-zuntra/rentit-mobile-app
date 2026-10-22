@@ -209,13 +209,18 @@ class _ChatListScreenState extends State<ChatListScreen>
     if (!mounted) return;
     HapticFeedback.lightImpact();
     final otherId = _otherUserId(chat);
+    final propertyId = chat['propertyId'] is int
+        ? chat['propertyId'] as int
+        : (int.tryParse(chat['propertyId']?.toString() ?? '') ?? 0);
+    final otherName = (chat['otherUserName'] ?? 'User').toString();
+
     Navigator.push(
       context,
       MaterialPageRoute(
         builder: (_) => ChatScreen(
-          propertyId: chat['propertyId'],
+          propertyId: propertyId,
           ownerId: otherId,
-          ownerName: chat['otherUserName'] ?? 'User',
+          ownerName: otherName,
         ),
       ),
     ).then((_) {
@@ -225,8 +230,15 @@ class _ChatListScreenState extends State<ChatListScreen>
 
   // -- Helpers ----------------------------------------------------------------
 
-  int _otherUserId(Map<String, dynamic> chat) =>
-      chat['senderId'] == _userId ? chat['receiverId'] : chat['senderId'];
+  int _otherUserId(Map<String, dynamic> chat) {
+    final senderId = chat['senderId'] is int
+        ? chat['senderId'] as int
+        : (int.tryParse(chat['senderId']?.toString() ?? '') ?? 0);
+    final receiverId = chat['receiverId'] is int
+        ? chat['receiverId'] as int
+        : (int.tryParse(chat['receiverId']?.toString() ?? '') ?? 0);
+    return senderId == _userId ? receiverId : senderId;
+  }
 
   String _formatTime(String? raw) {
     if (raw == null) return '';
@@ -486,7 +498,9 @@ class _ChatTile extends StatelessWidget {
     final message = (chat['message'] ?? '').toString();
     final propertyName = (chat['propertyName'] ?? '').toString();
     final locality = (chat['locality'] ?? '').toString();
-    final unread = (chat['unreadCount'] ?? 0) as int;
+    final unread = (chat['unreadCount'] is num)
+        ? (chat['unreadCount'] as num).toInt()
+        : 0;
     final hasUnread = unread > 0;
 
     final propertyLine = [
