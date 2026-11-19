@@ -231,6 +231,10 @@ class _ChatListScreenState extends State<ChatListScreen>
   // -- Helpers ----------------------------------------------------------------
 
   int _otherUserId(Map<String, dynamic> chat) {
+    if (chat['otherUserId'] != null) {
+      final parsed = int.tryParse(chat['otherUserId'].toString());
+      if (parsed != null && parsed > 0) return parsed;
+    }
     final senderId = chat['senderId'] is int
         ? chat['senderId'] as int
         : (int.tryParse(chat['senderId']?.toString() ?? '') ?? 0);

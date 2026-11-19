@@ -98,7 +98,7 @@ class _MainAppState extends State<MainApp> {
       }
     } else if (uri.pathSegments.length >= 2 &&
         uri.pathSegments.first == 'property') {
-      // Handles http://192.168.1.37/property/5
+      // Handles https://rentit-backend-omega.vercel.app/property/5
       id = int.tryParse(uri.pathSegments[1]);
     } else if (uri.pathSegments.length == 1) {
       // Handles fallback /5

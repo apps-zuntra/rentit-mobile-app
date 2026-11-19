@@ -310,7 +310,7 @@ class _ChatScreenState extends State<ChatScreen> {
                     itemCount: messages.length,
                     itemBuilder: (_, i) {
                       final m = messages[i];
-                      final isMe = m["senderId"] == userId;
+                      final isMe = m["senderId"]?.toString() == userId?.toString();
 
                       return Align(
                         alignment: isMe
@@ -351,7 +351,7 @@ class _ChatScreenState extends State<ChatScreen> {
                             crossAxisAlignment: CrossAxisAlignment.end,
                             children: [
                               Text(
-                                m["message"] ?? "",
+                                (m["message"] ?? m["text"] ?? "").toString(),
                                 style: TextStyle(
                                   color: isMe ? Colors.white : Colors.black87,
                                   fontSize: 14.5,

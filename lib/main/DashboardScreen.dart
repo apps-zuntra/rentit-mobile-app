@@ -600,25 +600,33 @@ class _DashboardPageState extends State<DashboardPage> {
               child: Column(
                 crossAxisAlignment: CrossAxisAlignment.start,
                 children: [
-                  const Text(
-                    "Looking to rent a PG?",
-                    style: TextStyle(
-                      color: Colors.white,
-                      fontSize: 18,
-                      fontWeight: FontWeight.w700,
-                      height: 1.2,
+                  Flexible(
+                    child: Text(
+                      "Looking to rent a PG?",
+                      maxLines: 2,
+                      overflow: TextOverflow.ellipsis,
+                      style: const TextStyle(
+                        color: Colors.white,
+                        fontSize: 18,
+                        fontWeight: FontWeight.w700,
+                        height: 1.2,
+                      ),
                     ),
                   ),
                   const SizedBox(height: 6),
-                  Text(
-                    "Find verified PGs for yourself",
-                    style: TextStyle(
-                      color: Colors.white.withOpacity(.7),
-                      fontSize: 12,
-                      fontWeight: FontWeight.w400,
+                  Flexible(
+                    child: Text(
+                      "Find verified PGs for yourself",
+                      maxLines: 1,
+                      overflow: TextOverflow.ellipsis,
+                      style: TextStyle(
+                        color: Colors.white.withOpacity(.7),
+                        fontSize: 12,
+                        fontWeight: FontWeight.w400,
+                      ),
                     ),
                   ),
-                  const Spacer(),
+                  const SizedBox(height: 8),
                   InkWell(
                     onTap: () {},
                     borderRadius: BorderRadius.circular(14),

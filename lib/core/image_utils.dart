@@ -54,7 +54,7 @@ String? sanitizeImageUrl(dynamic url, [String baseUrl = kDefaultImageBaseUrl]) {
 
   // Determine base origin (protocol + host + port)
   final baseUri = Uri.tryParse(baseUrl);
-  final host = baseUri?.host ?? '192.168.1.37';
+  final host = baseUri?.host ?? '192.168.0.194';
   final portStr = (baseUri?.hasPort == true)
       ? ':${baseUri!.port}'
       : (baseUri?.scheme == 'https' ? '' : ':5000');

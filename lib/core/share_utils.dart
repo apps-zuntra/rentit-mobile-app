@@ -15,7 +15,7 @@ class ShareUtils {
     required String imageUrl,
     required String propertyId,
   }) async {
-    final link = 'http://192.168.1.37/property/$propertyId';
+    final link = 'https://rentit-backend-omega.vercel.app/property/$propertyId';
 
     final StringBuffer sb = StringBuffer();
     sb.writeln('Check out this $title in $loc!');
